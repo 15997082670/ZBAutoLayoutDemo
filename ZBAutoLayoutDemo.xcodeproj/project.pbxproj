@@ -13,9 +13,17 @@
 		434958D21FE7EE1600A8E8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434958D11FE7EE1600A8E8A0 /* Assets.xcassets */; };
 		434958D51FE7EE1600A8E8A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434958D31FE7EE1600A8E8A0 /* LaunchScreen.storyboard */; };
 		434958D81FE7EE1600A8E8A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 434958D71FE7EE1600A8E8A0 /* main.m */; };
+		434958DF1FE7EEC900A8E8A0 /* 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 434958DE1FE7EEC900A8E8A0 /* 3.txt */; };
+		434958E21FE7F21500A8E8A0 /* BaseBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 434958E11FE7F21500A8E8A0 /* BaseBox.m */; };
+		434958E81FE7F4E400A8E8A0 /* outBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 434958E71FE7F4E400A8E8A0 /* outBox.m */; };
+		43C2269E1FEA5EB300D6E492 /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C2269B1FEA5EB200D6E492 /* 1.txt */; };
+		43C226A21FEA981700D6E492 /* ZBAutoLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C226A11FEA981700D6E492 /* ZBAutoLayoutView.m */; };
+		43C226A61FEA999100D6E492 /* ZBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C226A51FEA999100D6E492 /* ZBTableViewCell.m */; };
+		B2D783EEA470A40E866EDA00 /* libPods-ZBAutoLayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586483CDD333793CE7CFCC06 /* libPods-ZBAutoLayoutDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09168D0CBB13A77BA6C22388 /* Pods-ZBAutoLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBAutoLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBAutoLayoutDemo/Pods-ZBAutoLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		434958C51FE7EE1600A8E8A0 /* ZBAutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBAutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434958C81FE7EE1600A8E8A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		434958C91FE7EE1600A8E8A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,18 @@
 		434958D41FE7EE1600A8E8A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434958D61FE7EE1600A8E8A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		434958D71FE7EE1600A8E8A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		434958DE1FE7EEC900A8E8A0 /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
+		434958E01FE7F21400A8E8A0 /* BaseBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBox.h; sourceTree = "<group>"; };
+		434958E11FE7F21500A8E8A0 /* BaseBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBox.m; sourceTree = "<group>"; };
+		434958E61FE7F4E400A8E8A0 /* outBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = outBox.h; sourceTree = "<group>"; };
+		434958E71FE7F4E400A8E8A0 /* outBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = outBox.m; sourceTree = "<group>"; };
+		43C2269B1FEA5EB200D6E492 /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		43C226A01FEA981700D6E492 /* ZBAutoLayoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBAutoLayoutView.h; sourceTree = "<group>"; };
+		43C226A11FEA981700D6E492 /* ZBAutoLayoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBAutoLayoutView.m; sourceTree = "<group>"; };
+		43C226A41FEA999100D6E492 /* ZBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTableViewCell.h; sourceTree = "<group>"; };
+		43C226A51FEA999100D6E492 /* ZBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTableViewCell.m; sourceTree = "<group>"; };
+		586483CDD333793CE7CFCC06 /* libPods-ZBAutoLayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZBAutoLayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691D5250EE1E3F3B71AE5F6D /* Pods-ZBAutoLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBAutoLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBAutoLayoutDemo/Pods-ZBAutoLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D783EEA470A40E866EDA00 /* libPods-ZBAutoLayoutDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				434958C71FE7EE1600A8E8A0 /* ZBAutoLayoutDemo */,
 				434958C61FE7EE1600A8E8A0 /* Products */,
+				9C3771677840B80732F4CCE7 /* Pods */,
+				97C4D832790A6FDE1D83AE45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +81,8 @@
 		434958C71FE7EE1600A8E8A0 /* ZBAutoLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				43C226A71FEA999F00D6E492 /* DataSource */,
+				43C226A31FEA98B100D6E492 /* Class */,
 				434958C81FE7EE1600A8E8A0 /* AppDelegate.h */,
 				434958C91FE7EE1600A8E8A0 /* AppDelegate.m */,
 				434958CB1FE7EE1600A8E8A0 /* ViewController.h */,
@@ -67,8 +92,49 @@
 				434958D31FE7EE1600A8E8A0 /* LaunchScreen.storyboard */,
 				434958D61FE7EE1600A8E8A0 /* Info.plist */,
 				434958D71FE7EE1600A8E8A0 /* main.m */,
+				43C226A41FEA999100D6E492 /* ZBTableViewCell.h */,
+				43C226A51FEA999100D6E492 /* ZBTableViewCell.m */,
 			);
 			path = ZBAutoLayoutDemo;
+			sourceTree = "<group>";
+		};
+		43C226A31FEA98B100D6E492 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				434958E61FE7F4E400A8E8A0 /* outBox.h */,
+				434958E71FE7F4E400A8E8A0 /* outBox.m */,
+				43C226A01FEA981700D6E492 /* ZBAutoLayoutView.h */,
+				43C226A11FEA981700D6E492 /* ZBAutoLayoutView.m */,
+				434958E01FE7F21400A8E8A0 /* BaseBox.h */,
+				434958E11FE7F21500A8E8A0 /* BaseBox.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		43C226A71FEA999F00D6E492 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				43C2269B1FEA5EB200D6E492 /* 1.txt */,
+				434958DE1FE7EEC900A8E8A0 /* 3.txt */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		97C4D832790A6FDE1D83AE45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				586483CDD333793CE7CFCC06 /* libPods-ZBAutoLayoutDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C3771677840B80732F4CCE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09168D0CBB13A77BA6C22388 /* Pods-ZBAutoLayoutDemo.debug.xcconfig */,
+				691D5250EE1E3F3B71AE5F6D /* Pods-ZBAutoLayoutDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 434958DB1FE7EE1600A8E8A0 /* Build configuration list for PBXNativeTarget "ZBAutoLayoutDemo" */;
 			buildPhases = (
+				16A6E5280AE82A409D38BFAA /* [CP] Check Pods Manifest.lock */,
 				434958C11FE7EE1600A8E8A0 /* Sources */,
 				434958C21FE7EE1600A8E8A0 /* Frameworks */,
 				434958C31FE7EE1600A8E8A0 /* Resources */,
+				ECC9AD48A045DC1E6C3F1A8B /* [CP] Embed Pods Frameworks */,
+				7EAC1A8536E0E6E6A7E5377C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,22 +198,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C2269E1FEA5EB300D6E492 /* 1.txt in Resources */,
 				434958D51FE7EE1600A8E8A0 /* LaunchScreen.storyboard in Resources */,
 				434958D21FE7EE1600A8E8A0 /* Assets.xcassets in Resources */,
+				434958DF1FE7EEC900A8E8A0 /* 3.txt in Resources */,
 				434958D01FE7EE1600A8E8A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16A6E5280AE82A409D38BFAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZBAutoLayoutDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EAC1A8536E0E6E6A7E5377C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBAutoLayoutDemo/Pods-ZBAutoLayoutDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC9AD48A045DC1E6C3F1A8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBAutoLayoutDemo/Pods-ZBAutoLayoutDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		434958C11FE7EE1600A8E8A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434958E21FE7F21500A8E8A0 /* BaseBox.m in Sources */,
+				43C226A21FEA981700D6E492 /* ZBAutoLayoutView.m in Sources */,
 				434958CD1FE7EE1600A8E8A0 /* ViewController.m in Sources */,
+				43C226A61FEA999100D6E492 /* ZBTableViewCell.m in Sources */,
 				434958D81FE7EE1600A8E8A0 /* main.m in Sources */,
 				434958CA1FE7EE1600A8E8A0 /* AppDelegate.m in Sources */,
+				434958E81FE7F4E400A8E8A0 /* outBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +402,7 @@
 		};
 		434958DC1FE7EE1600A8E8A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09168D0CBB13A77BA6C22388 /* Pods-ZBAutoLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +417,7 @@
 		};
 		434958DD1FE7EE1600A8E8A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691D5250EE1E3F3B71AE5F6D /* Pods-ZBAutoLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
